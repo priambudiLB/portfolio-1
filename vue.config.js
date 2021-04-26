@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
             test: compressionTest,
         }),
         new GenerateSW({
-            swDest: 'iuri.is-sw.js'
+            swDest: 'priambudi.fyi-sw.js'
         })
     ];
 }
